@@ -9,3 +9,5 @@ I like to "soft-mod" my routers and other devices by modifying the "firmware" (w
 Yeah I'm just rambling now to fill this page with content. I wish I was being paid for this!
 
 Here are some of my Bukkit/Spigot plugins: [CLICK HERE like in the 00s web](https://github.com/sindastra?tab=repositories&q=bukkit)
+
+{% include_relative FOOTER.md %}
