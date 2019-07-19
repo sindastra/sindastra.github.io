@@ -1,4 +1,9 @@
-# Sindastra@GitHub
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
 
 Hello! This is my page on GitHub! Yay! Yet another site spamming the interwebz!
 
@@ -9,5 +14,3 @@ I like to "soft-mod" my routers and other devices by modifying the "firmware" (w
 Yeah I'm just rambling now to fill this page with content. I wish I was being paid for this!
 
 Here are some of my Bukkit/Spigot plugins: [CLICK HERE like in the 00s web](https://github.com/sindastra?tab=repositories&q=bukkit)
-
-{% include footer.html %}
