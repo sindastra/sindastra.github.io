@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/sindastra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sindastra.github.io
+  * I am sindastra (https://keybase.io/sindastra) on keybase.
+  * I have a public key with fingerprint 932A 4EC6 B859 4B2C 1408  D56F 229D 5B06 65DD 4E62
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018ce11d0abcdfc43b513efba7e86fbf04d4b86792714976ab90ff1477041c41a10a",
+      "fingerprint": "932a4ec6b8594b2c1408d56f229d5b0665dd4e62",
+      "host": "keybase.io",
+      "key_id": "229d5b0665dd4e62",
+      "kid": "01018ce11d0abcdfc43b513efba7e86fbf04d4b86792714976ab90ff1477041c41a10a",
+      "uid": "2d733cce2e5232c7a90022bb322a7c19",
+      "username": "sindastra"
+    },
+    "service": {
+      "hostname": "sindastra.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1579248109,
+  "expire_in": 157680000,
+  "prev": "532950989fef8b78c2485d5d319dd1b300f1b2fdeebd445fe8babcd8b169fe20",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owJ4nK1Se1BUVRxeFtDcGRB56JQ6xWUEJmC557723h0HRwTSNGVgVmkSlnvuPXf3
+wr7YXV4CYsREPgrRUBusLJUgMhoeg1jjJFBpyqCCGsVDyDK1EgcCirG6F/Ofpj87
+/5w533zf9/u+35z9Ab4anc/9wNnS/iFsh8/FO1CTFS7PlGDQKRZjxhIsF81fyCYi
+j9ecK4uYEcMBDlgBASDiPBRESaBISAMSSZA3IJaRoIRTIgVZxsARBkBxBoaHHC5J
+gDIYcAoIFOABzmOxmCQ7LMjtcssOr2LLkQRPIYGBLM1RkBAAhbMizUgEwYk0xBmG
+FkUKMYQitDo9qkIJB3kP0stOBVMe5vl4/8H/n3PnP5ojGkhSEBCBaIIkBAPP4ThB
+QEgSBG8QAKcSPcjt4O1IYXtkh8h7vG4eK4vFFLhAFpC6WbXKvyl6i+y15sNHvVxu
+p9cpOG0Kwer1ujxG1cBb7FIVhQia//EyQ0Wt7FNRFCC3R3Y6MCNQmIJXVs0BrZSi
+WIBzsRgqcsluZJYd8zDD4spR56ACzMhjNElwNM6xnIQkFhpYQZHRIi2SgBNFAEkc
+lwAkJBEhKFIULSEWqttkIWAUCYFjar08h1MxB0pQ3jLfzOLgvfluhJXpdmtJP42P
+TrNyabhf/UjZTIiNvT4cEeV4/An9teoP1OgWBT1GTi1Z/Nf6XzpSbK+lTyYs3NCX
+tMl+xBntu3ZV1vK6rLgPDxSdDKt7s3Bi5Z3XJas/e9z00QdbxxeNPPP1aOmVxpuL
+H9a/VBwV3hsAKHtnRf6L5/deEW/1nG347vR+XVG61RV0obhtV8bvzY3QNUd/+f1P
+o53VX9RkV/f0Gr+JGM3N7s4MXqCbyglJO/fG5ejJ+36Wk5tXTbfpsw4WZmubtsF3
+XxUvBHSkSQFRA1C75Ox55ujQQEr8YIbp+T0tNs6/c27L2utjlgif4EsjH9verrYf
+2NmXXNNxJubTaH1iTmaZfeDY6f5NiVdfLq3UhJuqwte0Ny5rHhvKfIrcbol2/rZ8
+T+gTXfG1ww8uHu7Yqnl2Ii3324HeBd6295sXHun/uWH14MZazbUn48WJiumaG1GX
+rCC9tD9oLm0wrK/8avWKV4JDfSNjshpum0NtyRnjbaNSU7seJMVtP0RUNWGZcVO/
+avvTMxzO2ZSH/mnrrD8aEjKwrmu3+Lak9uP1keu3FSS13oMH8z4bf1DJ/LELpUYO
+hs3yA7117Tddk5/r0N4bod1fzVSmvjdUbko6NqYPblgX07IxNXrpD0M+Jd1bXigq
+1+qeqyiYLDvsf/cu39Gz80RF+rmE2SrftxIvv2NvTX76UMsa073pFfpAU0/dsn1T
+uav/nMj7JHA4LO72CfepHTnBVa1dG85gE7XFu2viQv4GpObNQw==
+=i9+M
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sindastra
+
+==================================================================
