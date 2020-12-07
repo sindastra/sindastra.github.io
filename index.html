@@ -1,27 +1,100 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-w+8Gqjk9Cuo6XH9HKHG5t5I1VR4YBNdPt/29vwgfZR485eoEJZ8rJRbm3TR32P6k" crossorigin="anonymous">
-    <title>sindastra.github.io</title>
-  </head>
-  <body>
-    <main>
-        <div class="container">
-            <div class="jumbotron">
-                <h1>Sindastra's GitHub I/O</h1>
-                <h4>Hello and welcome to my site!</h4>
-                <h6>You might be interested in one of the following:</h6>
-                <ul>
-                    <li><a href="https://github.com/sindastra">My GitHub</a></li>
-                    <li><a href="https://keybase.io/sindastra">My Keybase</a></li>
-                    <li><a href="https://www.sindastra.de">My Website/Blog</a></li>
-                    <li><a rel="me" href="https://mastodon.social/@sindastra">My Mastodon</a></li>
-                </ul>
-            </div>
-            <footer><small>Copyright &copy; Sindastra. All rights reserved.</small></footer>
-        </div>
-    </main>
-  </body>
+<head>
+<meta charset="UTF-8">
+<title>sindastra.github.io</title>
+<style>
+html{
+background-color:black;
+background-image:url('background.webp');
+background-repeat:no-repeat;
+background-size:cover;
+}
+#bgvid{
+object-fit:cover;
+width:100vw;
+height:100vh;
+position:fixed;
+top:0;
+left:0;
+}
+.viewport-header {
+position: relative;
+height: 100vh;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+body{
+font-family: "Avenir Next", "Segoe UI", "Ubuntu", sans-serif;
+color:white;
+font-size: 2em;
+}
+small{color:grey;font-size:0.5em}
+h1,h2,h3,h4,h5,h6{text-shadow:1px 1px black;}
+main {
+background:black;
+background-color:rgba(0,0,0,0.7);
+color: white;
+position: relative;
+padding: 1rem;
+border-radius: 20px;
+font-size: 0.8em;
+}
+.clickable:hover{cursor:pointer;}
+.hint{animation:3s ease 0s normal forwards 1 fadeIn;}
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	66%{opacity: 0}
+	100%{opacity: 1;}
+}
+a,a:visited{color:white;text-decoration:none}
+a:hover{color:grey;}
+</style>
+</head>
+<body>
+<video playsinline autoplay muted loop poster="background.webp" id="bgvid">
+<source src="background.mp4" type="video/mp4">
+</video>
+<header class="viewport-header">
+<h1>
+Sindastra I/O
+<br/>
+<small class="clickable" onclick="window.scrollTo({top:document.body.scrollHeight/3,behavior:'smooth'})">
+&#x2304;<br/><small class="hint">(scroll down)</small>
+</small>
+</h1>
+</header>
+<main>
+<h1>Hi there! I'm Sindastra...</h1>
+<h3>I'm a software developer, mostly a web dev though, which is why I decided to make this horrible cover page with a bandwidth consuming video background!<br/><small>(Jokes aside, I applied heavy compression and it's just about 721 KiB and I made sure not to use any external libraries, so this site should still be "averagely sized")</small></h3>
+<h4>This site serves as introduction and "hub" to link to other things and social pages, like:</h4>
+<ul>
+<li><a href="https://www.sindastra.de/" target="_blank">My Blog <small>(Mostly tech related guides for beginners and advanced users but sometimes personal things and thoughts)</small></a></li>
+<li><a href="https://github.com/sindastra" target="_blank">My GitHub <small>(Here's where I put my FOSS stuff)</small></a></li>
+<li><a href="https://mastodon.social/@sindastra" target="_blank">My Mastodon <small>(Mastodon, or "fedi". A social network like Twitter, but federated and no ads.)</small></a></li>
+<li><a href="https://twitter.com/sindastra" target="_blank">My Twitter <small>(I'll start using it if you start using it!)</small></a></li>
+<li><a href="https://keybase.io/sindastra" target="_blank">My Keybase <small>(don't bother lol)</small></a></li>
+<!--li><a href="" target="_blank"></a></li-->
+</ul>
+<h4>Some dev skills: <small>(incomplete list)</small></h4>
+<ul>
+<li>Web frontend: HTML, CSS, JS</li>
+<li>Web backend: PHP5&7</li>
+<li>Databases: MySQL/MariaDB</li>
+<li>Real stuff: C, C#, Java</li>
+</ul>
+<h4>Some creative skills: <small>(incomplete list)</small></h4>
+<ul>
+<li>Image manipulation and creation: Photoshop CS6+, Affinity Photo</li>
+<li>3D Modelling: Blender</li>
+<li>Game dev: Unity (formerly Unity3D) in C#</li>
+</ul>
+<h4>OS skills: Well-versed in Linux, macOS and Windows but I'll use FreeBSD if I have to.</h4>
+<h4>Networking: Internet is for memes. I know how the "web" works. I can build small networks. I ported OpenWrt in the past and can use it. I can use pfSense&reg;. WireGuard&reg; is your friend. Cloud is a lie.</h4>
+<h4>Security and privacy? Yes.</h4>
+<small>Copyright &copy; Sindastra. All rights reserved.</small>
+</main>
+</body>
 </html>
